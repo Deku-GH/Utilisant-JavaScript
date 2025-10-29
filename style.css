@@ -1,0 +1,73 @@
+/* body {
+
+    background: no-repeat linear-gradient(140deg, white, #50207A, #3C076B);
+
+
+
+  
+
+} */
+
+header {
+
+    text-align: center;
+    
+    
+}
+
+
+section{
+   
+
+margin: 1rem;
+}
+h1 {
+    background: rebeccapurple;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 2%;
+    box-shadow: 12px 12px 3px black;
+
+}
+
+
+div{
+
+   border: 1px solid black;
+    border-radius: 25px;
+   
+    padding: 1rem;
+     box-shadow: 12px 12px 3px black;
+   
+}
+
+
+p{
+    padding: 1rem;
+    
+    border: 2px solid black;
+    text-align: center;
+}
+.box-chois
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+   background: whitesmoke;
+gap: 12px;
+}
+.box-chois label{
+    border: 1px solid black;
+    background: red;
+    border-radius: 12px;
+color: black;
+    padding: 1rem;
+}
+
+
+button{
+    width: 100%;
+    margin-top:10px ;
+        padding: 1rem;
+
+}
