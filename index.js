@@ -1,6 +1,5 @@
 
 
-alert("start");
 
 
 const quistion = ["1 Which planet is known as the “Red Planet”?", "2. What has a face and two hands, but no arms or legs?", "3. What has a face and two hands, but no arms or legs?", "4. What has a face and two hands, but no arms or legs?", "5. What has a face and two hands, but no arms or legs?"];
@@ -12,17 +11,22 @@ let score = 0;
 
 
 console.log(n)
-document.getElementById("ans-1").addEventListener("click", sendans);
 
+
+document.getElementById("ans-1").addEventListener("click", sendans);
+ const cont = document.getElementById("chois");
+  const cont2 = document.getElementById("Quiz-quition");
+ cont.style.display="none";
+ cont2.style.display="none";
 
 
 
 function sendans() {
+   cont.style.display="grid";
+ cont2.style.display="grid"
   if(n==2)
       {
-
-       
-      alert(score);
+        alert(score);
       }
    document.getElementById('Quiz-quition').innerHTML = quistion[n];
 
